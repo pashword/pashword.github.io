@@ -34,6 +34,7 @@ jobs:
         with:
           name: pashword/pashword
           ref: main
+          path: ''
       - name: Detect package manager
         id: detect-package-manager
         run: |
